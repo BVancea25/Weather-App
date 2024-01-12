@@ -8,6 +8,9 @@
         android:id="@+id/cityName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textStyle="bold"
         android:padding="8dp"
-        android:textSize="16sp" />
+        android:textSize="24sp" />
 </LinearLayout>

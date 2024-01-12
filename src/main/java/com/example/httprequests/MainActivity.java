@@ -54,7 +54,9 @@ public class MainActivity extends AppCompatActivity {
         coordinatesCityMapping.put("Baia Mare",new ArrayList<>(List.of(47.65,23.58)));
         coordinatesCityMapping.put("Cluj-Napoca",new ArrayList<>(List.of(46.77,23.62)));
         coordinatesCityMapping.put("Bucuresti",new ArrayList<>(List.of(44.42,26.10)));
-
+        coordinatesCityMapping.put("Oradea",new ArrayList<>(List.of(47.04, 21.91)));
+        coordinatesCityMapping.put("Brasov",new ArrayList<>(List.of(45.64, 25.58)));
+        coordinatesCityMapping.put("Iasi",new ArrayList<>(List.of(47.15, 27.60)));
         createNotificationChannel();
 
 

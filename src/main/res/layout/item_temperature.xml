@@ -12,7 +12,9 @@
 
         android:gravity="center"
         android:padding="8dp"
-        android:textSize="18sp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -23,6 +25,7 @@
     <TextView
         android:id="@+id/dateTextView"
         android:layout_width="71dp"
+
         android:layout_height="21dp"
         android:layout_marginBottom="12dp"
         android:gravity="center"
@@ -36,6 +39,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
